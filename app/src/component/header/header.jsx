@@ -33,10 +33,10 @@ const Header = () =>{
                     <p>Пароль</p>
                     <input type="text" />
                 </div>
-                <button>Войти</button>
-                <p>Если Вы впервые на нашем сайте, предлагаем создать учетные данные и войти на сайт</p>
-                <button>Зарегистироваться</button>
-                <p>или войдите через</p>
+                <button className={style.signIn_button}>Войти</button>
+                <p className={style.text}>Если Вы впервые на нашем сайте, предлагаем создать учетные данные и войти на сайт</p>
+                <button className={style.signIn_button_signUp}>Зарегистироваться</button>
+                <p className={style.text}>или войдите через</p>
                 <div>
                     <img src={vkontakte} alt="" />
                     <img src={google} alt="" />
