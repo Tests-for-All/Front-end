@@ -92,7 +92,6 @@
 }
 
 .signIn_button{
-    /* width: 100%; */
     margin: 15px auto;
     display: flex;
     justify-content: center;
